@@ -12,7 +12,7 @@ VENUS_TRACE_PATTERN = "%1%\t%2%\t%5%\t%6%\t%7%\t%8%\t%9%\t%10%\t%pc%\t%inst%\t%l
 
 script_dir = os.path.realpath(sys.path[0])
 logisim_path = os.path.join(script_dir, "../../../logisim-evolution.jar")
-venus_path = os.path.join(script_dir, "../../../venus-cs61c-su20.jar")
+venus_path = os.path.join(script_dir, "../../../venus-cs61c-su20-proj3.jar")
 
 def main(asm_file_paths, num_cycles):
   error_log_path = os.path.join(script_dir, "error.log")
